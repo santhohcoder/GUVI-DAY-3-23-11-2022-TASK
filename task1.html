@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task 1 A Using for loop
+        var request=new XMLHttpRequest()
+        request.open('GET','https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0')
+        request.send()
+        request.onload=function(){
+            var data=JSON.parse(request.response)
+            for(let i=0;i<data.dataseries.length;i++)
+            console.log(data.dataseries[i].timepoint)
+        }
+        //task 1 B using for of loop
+        var request1=new XMLHttpRequest()
+        request1.open('GET','https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0')
+        request1.send()
+        request1.onload=function(){
+            var data=JSON.parse(request1.response)
+            for(var temp of data.dataseries)
+            console.log(temp)
+        }
+
+          //task 1 C using for of loop
+          var request2=new XMLHttpRequest()
+        request2.open('GET','https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0')
+        request2.send()
+        request2.onload=function(){
+            var data=JSON.parse(request2.response)
+            for(var temp2 in data)
+            console.log(data.dataseries[temp2])
+        }
+
+
+
+    </script>
+</body>
+</html>
