@@ -1,0 +1,47 @@
+{
+    "My Contact":[{
+        "name" :"Santhosh Kanna K S",
+        "mail id":"santhoshannak@gmail.com",
+        "conatct":"9585524630",
+        "github profile":"https://github.com/santhohcoder
+        ?tab=repositories",
+        "linkedIn Profile":"https://www.linkedin.com/in/
+        santhosh-kanna-51181a226/."
+    }],
+    "Educational Background":[{
+        "10th":"Jeevana Internation school",
+        "10th percentage":"85",
+        "12th":"Jeevana Internation school",
+        "12th percentage":"98",
+        "college":"Thiagarajar College of Engineering",
+        "college percentage":"89"
+    }],
+    "About Me":"Having Interest in Coding, used to solve
+    mathematical problems along with friends from
+    my college days. After graduation spent three
+    years in preparing for Civil Service Examination
+    but my interest being aligned towards computer
+    programming I was not able to clear the exam.
+    During my preparation time along with my friends
+    I also did several mini projects like designing and
+    verifying the results of sudoku puzzles.,. So now I
+    have decided to come back to field of my interest
+    completely where I could expand my knowledge
+    and to utilize my potential that will enhance my
+    personality and career growth. I am excited to
+    start my career by joining a company composed
+    of driven professionals who value creative
+    problem solving.",
+    "Skills":[{
+        "Technical":[{"Java, javaScript,OOPS,MYSQL,Java Script,HTML"}],
+        "Non technical":[{"Leadership and Teamwork ,Decision making,  Time Management."
+    }],
+    "projects":[{
+        "1 . Taxi Booking Application - Designed a call taxi Booking application with which determines the
+    taxi to be allotted for the customer and determines the fare need to be paid by the customer,
+    2. Ball Brick Game - Designed an interactive game in which user plays using paddle and breaks the
+    bricks present in the game. The toughness of game increases in each level he continues to play,
+    3.Toll-Payment Processing -Designed a application in which there are ‘n’ number of points in a
+    highway out of which some points collect toll. Each toll has its own charging scheme according to
+    the vehicles ."]}
+}
